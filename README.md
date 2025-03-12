@@ -48,5 +48,25 @@ src/
 ├── App.vue
 └── main.ts
 
+⚙️ Configurações Personalizadas
+Velocidade inicial: 200ms
+Tamanho do grid: 20x20
+Tamanho da célula: 25px
+A velocidade aumenta gradualmente conforme você coleta comidas
+
+🎨 Características Visuais
+Design moderno com gradientes
+Efeitos de sombra
+Grid sutil no fundo
+Animações suaves
+Interface responsiva
+Cobra com olhos animados
+Comida com efeito de brilho
+
+🤝 Contribuindo
+Sinta-se à vontade para contribuir com o projeto. Abra uma issue ou envie um pull request!
+
+📝 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 
