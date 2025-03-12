@@ -20,7 +20,7 @@ import SnakeGame from './components/SnakeGame.vue'
 }
 
 h1 {
-  color: #4CAF50;
+  color:rgb(53, 108, 179);
   margin-bottom: 20px;
 }
 </style>

@@ -179,7 +179,7 @@ onMounted(() => {
   align-items: center;
   gap: 20px;
   padding: 20px;
-  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+  background: linear-gradient(135deg,rgb(20, 104, 230) 0%, #e4e8eb 100%);
   border-radius: 16px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
@@ -187,7 +187,7 @@ onMounted(() => {
 .score {
   font-size: 32px;
   font-weight: bold;
-  color: #2E7D32;
+  color:rgb(45, 108, 128);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   background: rgba(255, 255, 255, 0.9);
   padding: 10px 30px;
@@ -203,7 +203,7 @@ onMounted(() => {
 }
 
 .game-canvas {
-  border: 4px solid #2E7D32;
+  border: 4px solidrgb(32, 112, 126);
   border-radius: 8px;
   background-color: #f8f9fa;
 }
@@ -212,23 +212,23 @@ onMounted(() => {
   padding: 12px 32px;
   font-size: 20px;
   font-weight: bold;
-  background: linear-gradient(145deg, #2E7D32, #388E3C);
+  background: linear-gradient(145deg,rgb(42, 113, 122),rgb(11, 58, 97));
   color: white;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);
+  box-shadow: 0 4px 12px rgba(31, 73, 83, 0.3);
 }
 
 .restart-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(46, 125, 50, 0.4);
-  background: linear-gradient(145deg, #388E3C, #2E7D32);
+  box-shadow: 0 6px 16px rgba(27, 71, 107, 0.4);
+  background: linear-gradient(145deg,rgb(146, 197, 193),rgb(70, 132, 143));
 }
 
 .restart-button:active {
   transform: translateY(0);
-  box-shadow: 0 2px 8px rgba(46, 125, 50, 0.3);
+  box-shadow: 0 2px 8px rgba(16, 31, 63, 0.3);
 }
 </style> 
